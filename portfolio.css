@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgba(128, 128, 128, 0.637);
+    font-family: sans-serif;
+    height: 100vh;
+   transition: transform 0.3s ease-in;
+}
+
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+.sidebar nav {
+    padding: 45px;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    /* background-color: green; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pic img {
+    height: 50vh;
+    
+}
+
+.button {
+
+}
+
+.hello {
+font-size: 60px;
+}
+
+.name {
+font-size: 70px;
+font-weight: bold;
+}
+
+.aboutme {
+    font-size: 40px;
+   
+}
+
+.about {
+font-size: 22px;
+margin-top: 23px;
+
+}
+button {
+    margin-top: 20px;
+    border-radius: 22px;
+    padding: 9px 14px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 3px 3 px;
+    cursor: pointer;
+
+}
+
+.button button:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.contactform {
+font-family: sans-serif;
+padding: 0 34px;
+padding-top: 144px;
+
+}
+
+.contactform h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.contactform div {
+    padding: 10px 0;
+}
+
+#emailhelp {
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.blog {
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+
+.skillcontainer {
+margin-top: 20px;
+}
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    margin-top: 10px;
+}
+
+
+.information {
+    /* margin-top: -600px; */
+}
+
+.hundred {
+    width: 55px;
+    background-color: red;
+}
+
+.fifty {
+    width: 95px;
+    background-color: red;
+
+}
+.sixty {
+    width: 105px;
+    background-color: red;
+
+}
+
+.seventy {
+    width: 125px;
+    background-color: red;
+}
+
+.eighty {
+    width: 155px;
+    background-color: red;
+
+}
+
+.hey {
+    margin-top: -300px;
+}
+
+.projects {
+    margin-left: 20px;
+}
+
+.service {
+    margin-left: -600px;
+    margin-top: -500px;
+}
+
+
+@media(max-width: 600px) {
+
+    /* .sidebar {
+        transform: translate(-443px,0px);
+        position: absolute; 
+    } */
+
+    /* .pic {
+        width: 50px;
+        height: 50px;
+    } */
+.pic {
+    width: 100px;
+}
+
+.info {
+    font-size: 20px;
+}
+.button {
+    font-size: 6px;
+}
+
+.contactform {
+    display: flex;
+    justify-content: center;
+    margin-left: 5000px;
+}
+
+}
+
+
+.ham {
+
+}
+.cross {
+    margin-left: 240px;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    margin: ;
+}
+
+.sidebarGo {
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.contactform {
+    margin-left: -400px;
+    margin-top: -500px;
+}
